@@ -1,0 +1,63 @@
+*{
+    font-family: "Parkinsans", sans-serif;
+}
+
+header{
+    background-color: #6D6875;
+    position: sticky;
+    top: 0;
+}
+
+body{
+    background-color: whitesmoke;
+}
+#my-name{
+    color:whitesmoke;
+}
+
+.nav-item a{
+    color: #FFCDB2;
+}
+
+#btn-profile{
+    background-color: #FFCDB2;
+    color: black;
+}
+#me{
+    color: #6D6875;
+}
+.nav-item a:hover{
+    color: #FFB4A2;
+}
+
+#app{
+    color: #B5838D;
+}
+
+#hanging-icons{
+    color: #B5838D;
+}
+#projects-title{
+    color: #B5838D;
+}
+.card-body{
+    background-color: #B5838D;
+    color: whitesmoke;
+}
+.btn-pj{
+    background-color: #6D6875;
+    
+}
+
+.btn-pj a{
+    text-decoration: none;
+    color: whitesmoke;
+}
+
+.btn-pj a:hover {
+    color:#E5989B;
+}
+
+.card-body small{
+    color:whitesmoke;
+}

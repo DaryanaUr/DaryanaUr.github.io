@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!--CDN Bootstrap-->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  <!--icons de Bootstrap-->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+  <!--Favicon-->
+  <link rel="icon" type="image/x-icon" href="Assets/code-square.svg">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <!--Google Fonts-->
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fjalla+One&family=Geist+Mono:wght@100..900&family=Parkinsans:wght@300..800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <title>Daryana Martínez Portfolio</title>
+</head>
+
+<body>
+  <header class="d-flex flex-wrap justify-content-center py-3 mb-4 border-bottom">
+    <a href="/" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto link-body-emphasis text-decoration-none">
+      <span id="my-name" class="fs-4" style="padding-left: 10px;"> Daryana Martínez-Uribe Portfolio</span>
+    </a>
+
+    <ul class="nav nav-pills">
+      <li class="nav-item"><a id="btn-profile" href="#about" class="nav-link active" aria-current="page">About me</a></li>
+      <li class="nav-item"><a href="#skills" class="nav-link">Skills</a></li>
+      <li class="nav-item"><a href="#pj" class="nav-link">Projects</a></li>
+      <li class="nav-item"><a href="#collabs" class="nav-link">Collabs</a></li>
+      <li class="nav-item"><a href="#contact" class="nav-link">Contact</a></li>
+    </ul>
+  </header>
+  <main>
+    <!--About me-->
+    <div class="hero" id="about">
+      <div class="px-4 py-5 my-5 text-center">
+        <img class="d-block mx-auto mb-4 rounded-circle" src="Assets/DaryCV.jpg" alt="" width="200">
+        <h1 class="display-5 fw-bold " id="me">About me</h1>
+        <h2 id="app"></h2>
+        <div class="col-lg-6 mx-auto">
+          <p class="lead mb-4">I am a biomedical engineer driven by a passion for AI and data science
+            applications in medical technology. With a focus on innovation, I strive to create
+            data-driven solutions that enhance healthcare and improve lives.</p>
+          <div class="d-grid gap-2 d-sm-flex justify-content-sm-center">
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!--Skills-->
+    <div class="skills container" id="skills">
+      <h2 class="pb-2 border-bottom" id="hanging-icons">Skills</h2>
+      <div class="row g-4 py-5 row-cols-1 row-cols-lg-3">
+        <div class="col d-flex align-items-start">
+          <div
+            class="icon-square text-body-emphasis  d-inline-flex align-items-center justify-content-center fs-2 flex-shrink-0 me-3">
+            <i class="bi bi-diagram-2 px-1"></i>
+          </div>
+          <div>
+            <h3 class="fs-2 text-body-emphasis">Deep Learning with Python</h3>
+            <p>Paragraph of text beneath the heading to explain the heading. We'll add onto it with another
+              sentence and probably just keep going until we run out of words.</p>
+          </div>
+        </div>
+        <div class="col d-flex align-items-start">
+          <div
+            class="icon-square text-body-emphasis  d-inline-flex align-items-center justify-content-center fs-2 flex-shrink-0 me-3">
+            <i class="bi bi-code px-1"></i>
+          </div>
+          <div>
+            <h3 class="fs-2 text-body-emphasis">Frontend Development</h3>
+            <p>Paragraph of text beneath the heading to explain the heading. We'll add onto it with another
+              sentence and probably just keep going until we run out of words.</p>
+          </div>
+        </div>
+        <div class="col d-flex align-items-start">
+          <div
+            class="icon-square text-body-emphasis d-inline-flex align-items-center justify-content-center fs-2 flex-shrink-0 me-3">
+            <!--<svg class="bi" width="1em" height="1em"><use xlink:href="#tools"></use></svg> -->
+            <i class="bi bi-clipboard2-pulse px-1"></i>
+          </div>
+          <div>
+            <h3 class="fs-2 text-body-emphasis">Data Analysis</h3>
+            <p>Paragraph of text beneath the heading to explain the heading. We'll add onto it with another
+              sentence and probably just keep going until we run out of words.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!--Projects-->
+    <div class="projects container" id="pj">
+      <h2 class="pb-2 border-bottom" id="projects-title">Projects</h2>
+      <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+        <div class="col">
+          <div class="card shadow-sm">
+            <img src="Assets/primer_sitio.png" alt="" class="bd-placeholder-img card-img-top">
+            <div class="card-body">
+              <p class="card-text">My first web site.
+              </p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  <button type="button" class="btn btn-sm btn-outline-secondary btn-pj"><a href="">View</a></button>
+                  <button type="button" class="btn btn-sm btn-outline-secondary btn-pj"><a href="">GitHub</a></button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col">
+          <div class="card shadow-sm">
+            <img src="Assets/clon_pinterest.png" alt="" class="bd-placeholder-img card-img-top">
+            <div class="card-body">
+              <p class="card-text">Pinterest Clon.</p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  <button type="button" class="btn btn-sm btn-outline-secondary btn-pj"><a target="blank"
+                      href="https://pinterest-clon-delta-lemon.vercel.app/">View</a></button>
+                  <button type="button" class="btn btn-sm btn-outline-secondary btn-pj"><a target="blank"
+                      href="https://github.com/DaryanaUr/Pinterest-Clon">GitHub</a></button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col">
+          <div class="card shadow-sm">
+            <img src="Assets/portfolio.png" alt="" class="bd-placeholder-img card-img-top">
+            <div class="card-body">
+              <p class="card-text">Portfolio under construction.</p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  <button type="button" class="btn btn-sm btn-outline-secondary btn-pj"><a href="">View</a></button>
+                  <button type="button" class="btn btn-sm btn-outline-secondary btn-pj"><a target="blank"
+                      href="">GitHub</a></button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!--Collabs-->
+    <div class="collabs container mt-5" id="collabs">
+      <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+        <h2 class="pb-2 border-bottom">Collabs</h2>
+        <div class="carousel-inner">
+          <!--Item-->
+          <div class="carousel-item active">
+            <div class="d-flex justify-content-center">
+              <!--Card-->
+              <div class="card" style="width: 18rem;">
+                <img src="Assets/mirai_logo.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title text-center">Mirai Innovation Research Institute</h5>
+                  <h6 class="card-subtitle text-center mb-1 text-body-secondary">Research Internship</h6>
+                  <p class="card-text text-center">During the “EmFuTech 2024” program I developed an innovative and
+                    adaptable therapy for gradual exposure treatment for phobias, integrating augmented reality with a
+                    real-time biofeedback algorithm. The system, developed in Python, leverages AI to monitor the
+                    patient's fear and stress reactions to a visual stimulus and intelligently adjust the interactive
+                    environment to optimize the treatment.</p>
+                </div>
+              </div>
+              <!--Card End-->
+            </div>
+          </div>
+          <!--Item-->
+          <div class="carousel-item">
+            <div class="d-flex justify-content-center">
+              <!--Card-->
+              <div class="card" style="width: 18rem;">
+                <img src="Assets/paho-logo-blue.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title text-center">Pan American Health Organization</h5>
+                  <h6 class="card-subtitle text-center mb-1 text-body-secondary">Research Assistant</h6>
+                  <p class="card-text text-center"> Collaboration on a statistical research project analyzing the import
+                    and export of medical devices and health supplies in Mexico before, during, and after the COVID-19
+                    pandemic. I applied data analysis skills to manage and interpret large datasets, enhancing the
+                    accuracy and insights of the research findings.</p>
+                </div>
+              </div>
+              <!--Card End-->
+            </div>
+          </div>
+          <!--Item-->
+          <div class="carousel-item">
+            <div class="d-flex justify-content-center">
+              <!--Card-->
+              <div class="card" style="width: 18rem;">
+                <img src="Assets/somib.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title text-center">SOMIB</h5>
+                  <h5 class="card-title text-center">Sociedad Mexicana de Ingeniería Biomédica</h5>
+                  <h6 class="card-subtitle text-center mb-1 text-body-secondary">Innovation Committee</h6>
+                  <p class="card-text text-center">I guided the development of innovative prototypes during the
+                    InnovaHealth Challenge 2023, a national competition to solve key health sector challenges in Mexico.
+                    In this role, I supported participants in their prototype development by adhering to regulatory
+                    standards to ensure quality and compliance to achieve the project proof of concept, reinforcing my
+                    experience in regulatory compliance, project management, and healthcare innovation.</p>
+                </div>
+              </div>
+              <!--Card End-->
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+    <!--Contact-->
+    <div class="contact container mt-5" id="contact">
+      <h2 class="pb-2 border-bottom"></h2>
+      <div class="px-4 py-5 my-5 text-center">
+        <i class="bi bi-envelope-open-heart d-block mx-auto mb-2 fs-1"></i>
+        <h2 class="display-5 fw-bold text-body-emphasis">Contact me</h2>
+        <div class="col-lg-6 mx-auto">
+          <p class="lead mb-4">Let's get in touch if you want to do a new project with me!</p>
+          <div class="d-grid gap-2 d-sm-flex justify-content-sm-center">
+            <a href="mailto:daryanauribe25@gmail.com">
+              <button type="button" class="btn btn-outline-secondary btn-lg px-4" fdprocessedid="t7rm18">Mail
+                to</button>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <footer class="py-3 my-4">
+    <ul class="nav justify-content-center border-bottom pb-3 mb-3">
+      <li class="nav-item"><a target="_blank" href="https://www.linkedin.com/in/daryana-m-ba1496123/"
+          class="nav-link px-2 text-body-secondary"><i class="bi bi-linkedin fs-3"></i></a></li>
+      <li class="nav-item"><a target="_blank" href="https://github.com/DaryanaUr"
+          class="nav-link px-2 text-body-secondary"><i class="bi bi-github fs-3"></i></a></li>
+      <li class="nav-item"><a target="_blank"
+          href="https://www.instagram.com/daryana_ur/profilecard/?igsh=MWFlcnYzbG0wZHhuYQ=="
+          class="nav-link px-2 text-body-secondary"><i class="bi bi-instagram fs-3"></i></a></li>
+    </ul>
+    <p class="text-center text-body-secondary">Created by Daryana Martínez-Uribe at <a target="_blank"
+        href="https://tecnolochicas.mx/">Tecnolochicas Pro</a> Bootcamp</p>
+  </footer>
+
+
+  <!--Bootstrap, este script debe ir al final de body-->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+    crossorigin="anonymous"></script>
+
+  <!--CDN Typerwritter-->
+  <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
+
+  <!--main JS-->
+  <script src="main.js"></script>
+</body>
+
+</html>
