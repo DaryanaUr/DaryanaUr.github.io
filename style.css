@@ -4,8 +4,6 @@
 
 header{
     background-color: #6D6875;
-    position: sticky;
-    top: 0;
 }
 
 body{
@@ -18,16 +16,16 @@ body{
 .nav-item a{
     color: #FFCDB2;
 }
-
-#btn-profile{
+/*#btn-profile{
     background-color: #FFCDB2;
     color: black;
-}
-#me{
+}*/
+
+.me-title{
     color: #6D6875;
 }
 .nav-item a:hover{
-    color: #FFB4A2;
+    color: #E5989B;
 }
 
 #app{
@@ -37,6 +35,14 @@ body{
 #hanging-icons{
     color: #B5838D;
 }
+.skill-title{
+    color:#6D6875;
+}
+
+.icon{
+    color: #E5989B;
+}
+
 #projects-title{
     color: #B5838D;
 }
@@ -58,6 +64,30 @@ body{
     color:#E5989B;
 }
 
-.card-body small{
-    color:whitesmoke;
+#collabs-title{
+    color: #B5838D;
+}
+.card-subtitle{
+    color: #FFCDB2;
+}
+
+#contact{
+    background-color:#6D6875 ;
+    color: whitesmoke;
+}
+
+#btn-contact{
+    background-color: #FFCDB2;
+    color: #6D6875;
+}
+#btn-contact:hover{
+    background-color: #E5989B;
+}
+
+footer p{
+    color: black;
+}
+footer p a{
+    text-decoration: none;
+    color: #E5989B;
 }

@@ -14,7 +14,9 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <!--Google Fonts-->
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Fjalla+One&family=Geist+Mono:wght@100..900&family=Parkinsans:wght@300..800&display=swap" rel="stylesheet">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Fjalla+One&family=Geist+Mono:wght@100..900&family=Parkinsans:wght@300..800&display=swap"
+    rel="stylesheet">
   <link rel="stylesheet" href="style.css">
   <title>Daryana Martínez Portfolio</title>
 </head>
@@ -26,7 +28,8 @@
     </a>
 
     <ul class="nav nav-pills">
-      <li class="nav-item"><a id="btn-profile" href="#about" class="nav-link active" aria-current="page">About me</a></li>
+      <!--Para que tengan padding cuando se seleccionen aria-current="page" class="nav-link active"-->
+      <li class="nav-item"><a id="btn-profile" href="#about" class="nav-link">About me</a></li>
       <li class="nav-item"><a href="#skills" class="nav-link">Skills</a></li>
       <li class="nav-item"><a href="#pj" class="nav-link">Projects</a></li>
       <li class="nav-item"><a href="#collabs" class="nav-link">Collabs</a></li>
@@ -38,7 +41,7 @@
     <div class="hero" id="about">
       <div class="px-4 py-5 my-5 text-center">
         <img class="d-block mx-auto mb-4 rounded-circle" src="Assets/DaryCV.jpg" alt="" width="200">
-        <h1 class="display-5 fw-bold " id="me">About me</h1>
+        <h1 class="display-5 fw-bold me-title">About me</h1>
         <h2 id="app"></h2>
         <div class="col-lg-6 mx-auto">
           <p class="lead mb-4">I am a biomedical engineer driven by a passion for AI and data science
@@ -57,35 +60,35 @@
         <div class="col d-flex align-items-start">
           <div
             class="icon-square text-body-emphasis  d-inline-flex align-items-center justify-content-center fs-2 flex-shrink-0 me-3">
-            <i class="bi bi-diagram-2 px-1"></i>
+            <i class="bi bi-diagram-2 px-1 icon"></i>
           </div>
           <div>
-            <h3 class="fs-2 text-body-emphasis">Deep Learning with Python</h3>
-            <p>Paragraph of text beneath the heading to explain the heading. We'll add onto it with another
-              sentence and probably just keep going until we run out of words.</p>
+            <h3 class="fs-2 skill-title">Deep Learning with Python</h3>
+            <p>I have developed AI projects focused on solutions in the biomedical sector, such as the analysis of X-ray
+              images for the diagnosis of diseases, and more recently an adaptive therapy for phobias using XR.</p>
           </div>
         </div>
         <div class="col d-flex align-items-start">
           <div
             class="icon-square text-body-emphasis  d-inline-flex align-items-center justify-content-center fs-2 flex-shrink-0 me-3">
-            <i class="bi bi-code px-1"></i>
+            <i class="bi bi-code px-1 icon"></i>
           </div>
           <div>
-            <h3 class="fs-2 text-body-emphasis">Frontend Development</h3>
-            <p>Paragraph of text beneath the heading to explain the heading. We'll add onto it with another
-              sentence and probably just keep going until we run out of words.</p>
+            <h3 class="fs-2 skill-title">Frontend Development</h3>
+            <p>I have created responsive websites by applying the knowledge gained during the Tecnolochicas PRO
+              BootCamp, using HTML, CSS, JavaScript, and frameworks such as Bootstrap.</p>
           </div>
         </div>
         <div class="col d-flex align-items-start">
           <div
             class="icon-square text-body-emphasis d-inline-flex align-items-center justify-content-center fs-2 flex-shrink-0 me-3">
             <!--<svg class="bi" width="1em" height="1em"><use xlink:href="#tools"></use></svg> -->
-            <i class="bi bi-clipboard2-pulse px-1"></i>
+            <i class="bi bi-clipboard2-pulse px-1 icon"></i>
           </div>
           <div>
-            <h3 class="fs-2 text-body-emphasis">Data Analysis</h3>
-            <p>Paragraph of text beneath the heading to explain the heading. We'll add onto it with another
-              sentence and probably just keep going until we run out of words.</p>
+            <h3 class="fs-2 skill-title">Data Analysis</h3>
+            <p>Management of databases in Excel and SQL, as well as visualization software such as Power BI and Python
+              focused on data science.</p>
           </div>
         </div>
       </div>
@@ -99,12 +102,14 @@
           <div class="card shadow-sm">
             <img src="Assets/primer_sitio.png" alt="" class="bd-placeholder-img card-img-top">
             <div class="card-body">
-              <p class="card-text">My first web site.
+              <p class="card-text">My first web page.
               </p>
               <div class="d-flex justify-content-between align-items-center">
                 <div class="btn-group">
-                  <button type="button" class="btn btn-sm btn-outline-secondary btn-pj"><a href="">View</a></button>
-                  <button type="button" class="btn btn-sm btn-outline-secondary btn-pj"><a href="">GitHub</a></button>
+                  <button type="button" class="btn btn-sm btn-outline-secondary btn-pj"><a target="blank"
+                      href="https://first-web-page-rosy.vercel.app/">View</a></button>
+                  <button type="button" class="btn btn-sm btn-outline-secondary btn-pj"><a target="blank"
+                      href="https://github.com/DaryanaUr/First-Web-Page">GitHub</a></button>
                 </div>
               </div>
             </div>
@@ -135,9 +140,10 @@
               <p class="card-text">Portfolio under construction.</p>
               <div class="d-flex justify-content-between align-items-center">
                 <div class="btn-group">
-                  <button type="button" class="btn btn-sm btn-outline-secondary btn-pj"><a href="">View</a></button>
                   <button type="button" class="btn btn-sm btn-outline-secondary btn-pj"><a target="blank"
-                      href="">GitHub</a></button>
+                      href="https://daryanaur.github.io/">View</a></button>
+                  <button type="button" class="btn btn-sm btn-outline-secondary btn-pj"><a target="blank"
+                      href="https://github.com/DaryanaUr/DaryanaUr.github.io">GitHub</a></button>
                 </div>
               </div>
             </div>
@@ -149,7 +155,7 @@
     <!--Collabs-->
     <div class="collabs container mt-5" id="collabs">
       <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
-        <h2 class="pb-2 border-bottom">Collabs</h2>
+        <h2 class="pb-2 border-bottom" id="collabs-title">Collabs</h2>
         <div class="carousel-inner">
           <!--Item-->
           <div class="carousel-item active">
@@ -159,7 +165,7 @@
                 <img src="Assets/mirai_logo.png" class="card-img-top" alt="...">
                 <div class="card-body">
                   <h5 class="card-title text-center">Mirai Innovation Research Institute</h5>
-                  <h6 class="card-subtitle text-center mb-1 text-body-secondary">Research Internship</h6>
+                  <h6 id="position" class="card-subtitle text-center mb-1">Research Internship</h6>
                   <p class="card-text text-center">During the “EmFuTech 2024” program I developed an innovative and
                     adaptable therapy for gradual exposure treatment for phobias, integrating augmented reality with a
                     real-time biofeedback algorithm. The system, developed in Python, leverages AI to monitor the
@@ -178,7 +184,7 @@
                 <img src="Assets/paho-logo-blue.png" class="card-img-top" alt="...">
                 <div class="card-body">
                   <h5 class="card-title text-center">Pan American Health Organization</h5>
-                  <h6 class="card-subtitle text-center mb-1 text-body-secondary">Research Assistant</h6>
+                  <h6 class="card-subtitle text-center mb-1">Research Assistant</h6>
                   <p class="card-text text-center"> Collaboration on a statistical research project analyzing the import
                     and export of medical devices and health supplies in Mexico before, during, and after the COVID-19
                     pandemic. I applied data analysis skills to manage and interpret large datasets, enhancing the
@@ -197,7 +203,7 @@
                 <div class="card-body">
                   <h5 class="card-title text-center">SOMIB</h5>
                   <h5 class="card-title text-center">Sociedad Mexicana de Ingeniería Biomédica</h5>
-                  <h6 class="card-subtitle text-center mb-1 text-body-secondary">Innovation Committee</h6>
+                  <h6 class="card-subtitle text-center mb-1">Innovation Committee</h6>
                   <p class="card-text text-center">I guided the development of innovative prototypes during the
                     InnovaHealth Challenge 2023, a national competition to solve key health sector challenges in Mexico.
                     In this role, I supported participants in their prototype development by adhering to regulatory
@@ -214,19 +220,16 @@
     </div>
 
     <!--Contact-->
-    <div class="contact container mt-5" id="contact">
-      <h2 class="pb-2 border-bottom"></h2>
-      <div class="px-4 py-5 my-5 text-center">
-        <i class="bi bi-envelope-open-heart d-block mx-auto mb-2 fs-1"></i>
-        <h2 class="display-5 fw-bold text-body-emphasis">Contact me</h2>
-        <div class="col-lg-6 mx-auto">
-          <p class="lead mb-4">Let's get in touch if you want to do a new project with me!</p>
-          <div class="d-grid gap-2 d-sm-flex justify-content-sm-center">
-            <a href="mailto:daryanauribe25@gmail.com">
-              <button type="button" class="btn btn-outline-secondary btn-lg px-4" fdprocessedid="t7rm18">Mail
-                to</button>
-            </a>
-          </div>
+    <div id="contact" class="px-4 py-5 my-5 text-center">
+      <i class="bi bi-envelope-open-heart d-block mx-auto mb-2 fs-1 icon"></i>
+      <h2 class="display-5 fw-bold">Contact me</h2>
+      <div class="col-lg-6 mx-auto">
+        <p class="lead mb-4">Let's get in touch if you want to do a new project with me!</p>
+        <div class="d-grid gap-2 d-sm-flex justify-content-sm-center">
+          <a href="mailto:daryanauribe25@gmail.com">
+            <button id="btn-contact" type="button" class="btn btn-lg px-4" fdprocessedid="t7rm18">Mail
+              to</button>
+          </a>
         </div>
       </div>
     </div>
@@ -235,15 +238,17 @@
   <footer class="py-3 my-4">
     <ul class="nav justify-content-center border-bottom pb-3 mb-3">
       <li class="nav-item"><a target="_blank" href="https://www.linkedin.com/in/daryana-m-ba1496123/"
-          class="nav-link px-2 text-body-secondary"><i class="bi bi-linkedin fs-3"></i></a></li>
+          class="nav-link px-2 text-body-secondary"><i class="bi bi-linkedin fs-3 icon"></i></a></li>
       <li class="nav-item"><a target="_blank" href="https://github.com/DaryanaUr"
-          class="nav-link px-2 text-body-secondary"><i class="bi bi-github fs-3"></i></a></li>
+          class="nav-link px-2 text-body-secondary"><i class="bi bi-github fs-3 icon"></i></a></li>
       <li class="nav-item"><a target="_blank"
           href="https://www.instagram.com/daryana_ur/profilecard/?igsh=MWFlcnYzbG0wZHhuYQ=="
-          class="nav-link px-2 text-body-secondary"><i class="bi bi-instagram fs-3"></i></a></li>
+          class="nav-link px-2 text-body-secondary"><i class="bi bi-instagram fs-3 icon"></i></a></li>
     </ul>
-    <p class="text-center text-body-secondary">Created by Daryana Martínez-Uribe at <a target="_blank"
-        href="https://tecnolochicas.mx/">Tecnolochicas Pro</a> Bootcamp</p>
+    <div class="end-container">
+      <p class="text-center end-text">Created by Daryana Martínez-Uribe at <a target="_blank"
+          href="https://tecnolochicas.mx/">Tecnolochicas Pro</a> BootCamp</p>
+    </div>
   </footer>
 
 
