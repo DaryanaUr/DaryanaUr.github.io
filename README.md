@@ -1,5 +1,5 @@
 # Project Portfolio
-Hi! My name is ***Daryana Martínez-Uribe***, I'm a biomedical engineer who loves software development, you can find the first version of my Portfolio in this repository.
+Hi! My name is ***Daryana Martínez-Uribe***, I'm a biomedical engineer who loves software development. You can find the first version of my Portfolio in this repository.
 ___________________________________________________________________________________________
 
 ### This project has the following sections:
@@ -22,5 +22,5 @@ ________________________________________________________________________________
 ### *I'm looking forward to seeing you soon!* 💌
 E-mail: [daryanauribe25@gmail.com](mailto:daryanauribe25@gmail.com)
 
-<p>Created at <a target="blank" href="https://tecnolochicas.mx/">Tecnolochicas Pro</a> BootCamp</p>
+ <p>Created at <a target="_blank" href="https://tecnolochicas.mx/">Tecnolochicas Pro</a> BootCamp</p>
          
