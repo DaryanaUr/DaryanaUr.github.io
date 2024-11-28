@@ -22,5 +22,5 @@ ________________________________________________________________________________
 ### *I'm looking forward to seeing you soon!* 💌
 E-mail: [daryanauribe25@gmail.com](mailto:daryanauribe25@gmail.com)
 
-Created at [Tecnolochicas Pro](https://tecnolochicas.mx/) BootCamp
+Created at <a href="https://tecnolochicas.mx/" target="_blank">Tecnolochicas Pro</a> BootCamp
          
