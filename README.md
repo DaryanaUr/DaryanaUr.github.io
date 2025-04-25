@@ -18,7 +18,9 @@ ________________________________________________________________________________
 ### Preview:
 https://daryanaur.github.io/ 
 
-![Proyecto](Assets/PortadaPortfolio.png)
+![Proyecto](Assets/about_me.png)
+![Proyecto](Assets/skills.png)
+![Proyecto](Assets/projects.png)
 _________________________________________________________________________________________
 ### *I'm looking forward to seeing you soon!* 💌
 E-mail: [daryanauribe25@gmail.com](mailto:daryanauribe25@gmail.com)
