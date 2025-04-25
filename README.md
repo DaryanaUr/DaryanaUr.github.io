@@ -1,12 +1,13 @@
 # Project Portfolio
-Hi! My name is ***Daryana Martínez-Uribe***, I'm a biomedical engineer who loves software development. You can find the first version of my Portfolio in this repository.
+Hi! My name is ***Daryana Martínez-Uribe***, I'm a biomedical engineer who loves software development. You can find my Portfolio in this repository.
 ___________________________________________________________________________________________
 
 ### This project has the following sections:
 - 👩‍🔬About me
 - ⭐Skills
 - 💼Projects
-- 🤝Collabs
+- 🔎Research & Collaborations
+- 📜Courses & Certifications
 - 📫Contact
 
 ### Created with:
