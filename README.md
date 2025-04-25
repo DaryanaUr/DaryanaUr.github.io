@@ -19,7 +19,6 @@ ________________________________________________________________________________
 https://daryanaur.github.io/ 
 
 ![Proyecto](Assets/about_me.png)
-![Proyecto](Assets/skills.png)
 ![Proyecto](Assets/projects.png)
 _________________________________________________________________________________________
 ### *I'm looking forward to seeing you soon!* 💌
