@@ -40,7 +40,7 @@
     <!--About me-->
     <div class="hero" id="about">
       <div class="px-4 py-5 my-5 text-center">
-        <img class="d-block mx-auto mb-4 rounded-circle" src="Assets/DaryCV.jpg" alt="" width="200">
+        <img class="d-block mx-auto mb-4 rounded-circle" src="Assets/sakuras_Dary.jpg" alt="" width="200">
         <h1 class="display-5 fw-bold me-title">About me</h1>
         <h2 id="app"></h2>
         <div class="col-lg-6 mx-auto">
@@ -55,40 +55,84 @@
 
     <!--Skills-->
     <div class="skills container" id="skills">
-      <h2 class="pb-2 border-bottom" id="hanging-icons">Skills</h2>
+      <h2 class="pb-2 border-bottom" id="section-title">Skills</h2>
       <div class="row g-4 py-5 row-cols-1 row-cols-lg-3">
+
+        <!-- Data Science -->
         <div class="col d-flex align-items-start">
           <div
-            class="icon-square text-body-emphasis  d-inline-flex align-items-center justify-content-center fs-2 flex-shrink-0 me-3">
+            class="icon-square text-body-emphasis d-inline-flex align-items-center justify-content-center fs-2 flex-shrink-0 me-3">
+            <i class="bi bi-clipboard2-pulse px-1 icon"></i>
+          </div>
+          <div>
+            <h3 class="fs-2 skill-title">Data Science</h3>
+            <p>I’m passionate about leveraging data to uncover patterns and build meaningful solutions. My work combines
+              statistics, SQL, neural networks, and biomedical data to deliver impactful insights in healthcare.</p>
+          </div>
+        </div>
+
+        <!-- Deep Learning -->
+        <div class="col d-flex align-items-start">
+          <div
+            class="icon-square text-body-emphasis d-inline-flex align-items-center justify-content-center fs-2 flex-shrink-0 me-3">
             <i class="bi bi-diagram-2 px-1 icon"></i>
           </div>
           <div>
-            <h3 class="fs-2 skill-title">Deep Learning with Python</h3>
-            <p>I have developed AI projects focused on solutions in the biomedical sector, such as the analysis of X-ray
-              images for the diagnosis of diseases, and more recently an adaptive therapy for phobias using XR.</p>
+            <h3 class="fs-2 skill-title">Deep Learning</h3>
+            <p>Experienced in designing neural networks for image classification and adaptive systems. Projects include
+              pneumonia diagnosis from X-ray images and phobia exposure therapy using XR and biofeedback.</p>
           </div>
         </div>
+
+        <!-- Python Programming -->
         <div class="col d-flex align-items-start">
           <div
-            class="icon-square text-body-emphasis  d-inline-flex align-items-center justify-content-center fs-2 flex-shrink-0 me-3">
+            class="icon-square text-body-emphasis d-inline-flex align-items-center justify-content-center fs-2 flex-shrink-0 me-3">
+            <i class="bi bi-terminal px-1 icon"></i>
+          </div>
+          <div>
+            <h3 class="fs-2 skill-title">Python Programming</h3>
+            <p>Confident writing clean, modular Python code for data analysis, machine learning, and biomedical signal
+              processing. Comfortable using NumPy, pandas, scikit-learn, and more.</p>
+          </div>
+        </div>
+
+        <!-- Frontend Development -->
+        <div class="col d-flex align-items-start">
+          <div
+            class="icon-square text-body-emphasis d-inline-flex align-items-center justify-content-center fs-2 flex-shrink-0 me-3">
             <i class="bi bi-code px-1 icon"></i>
           </div>
           <div>
             <h3 class="fs-2 skill-title">Frontend Development</h3>
-            <p>I have created responsive websites by applying the knowledge gained during the Tecnolochicas PRO
-              BootCamp, using HTML, CSS, JavaScript, and frameworks such as Bootstrap.</p>
+            <p>I create responsive websites using HTML, CSS, JavaScript, and Bootstrap. Continuously improving my
+              frontend skills through hands-on projects and bootcamps.</p>
           </div>
         </div>
+
+        <!-- Machine Learning -->
         <div class="col d-flex align-items-start">
           <div
             class="icon-square text-body-emphasis d-inline-flex align-items-center justify-content-center fs-2 flex-shrink-0 me-3">
-            <!--<svg class="bi" width="1em" height="1em"><use xlink:href="#tools"></use></svg> -->
-            <i class="bi bi-clipboard2-pulse px-1 icon"></i>
+            <i class="bi bi-graph-up px-1 icon"></i>
           </div>
           <div>
-            <h3 class="fs-2 skill-title">Data Analysis</h3>
-            <p>Management of databases in Excel and SQL, as well as visualization software such as Power BI and Python
-              focused on data science.</p>
+            <h3 class="fs-2 skill-title">Machine Learning</h3>
+            <p>Trained and evaluated ML models including logistic regression, k-means clustering, and decision trees.
+              Comfortable working with structured datasets and sklearn workflows.</p>
+          </div>
+        </div>
+
+        <!-- Biomedical Signal Processing -->
+        <div class="col d-flex align-items-start">
+          <div
+            class="icon-square text-body-emphasis d-inline-flex align-items-center justify-content-center fs-2 flex-shrink-0 me-3">
+            <i class="bi bi-activity px-1 icon"></i>
+          </div>
+          <div>
+            <h3 class="fs-2 skill-title">Biomedical Signal Processing</h3>
+            <p>Worked with GSR, HR, and other biosignals for stress classification. Applied digital filters and data
+              normalization techniques for reliable biofeedback systems.</p>
           </div>
         </div>
       </div>
@@ -96,31 +140,30 @@
 
     <!--Projects-->
     <div class="projects container" id="pj">
-      <h2 class="pb-2 border-bottom" id="projects-title">Projects</h2>
+      <h2 class="pb-2 border-bottom" id="section-title">Projects</h2>
       <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+
+        <!--X ray classifier-->
         <div class="col">
           <div class="card shadow-sm">
-            <img src="Assets/primer_sitio.png" alt="" class="bd-placeholder-img card-img-top">
+            <img src="Assets/xray.png" alt="X-ray classification" class="bd-placeholder-img card-img-top">
             <div class="card-body">
-              <p class="card-text">My first web page.
+              <p class="card-text">X-ray image classifier for pneumonia detection using Convolutional Neural Networks.
               </p>
               <div class="d-flex justify-content-between align-items-center">
-                <div class="btn-group">
-                  <button type="button" class="btn btn-sm btn-outline-secondary btn-pj"><a target="blank"
-                      href="https://first-web-page-rosy.vercel.app/">View</a></button>
-                  <button type="button" class="btn btn-sm btn-outline-secondary btn-pj"><a target="blank"
-                      href="https://github.com/DaryanaUr/First-Web-Page">GitHub</a></button>
-                </div>
+                <button type="button" class="btn btn-sm btn-outline-secondary btn-pj"><a target="blank"
+                    href="https://github.com/DaryanaUr/Pneumonia-X-ray-image-classification">GitHub</a></button>
               </div>
             </div>
           </div>
         </div>
 
+        <!--Pinterest Clon-->
         <div class="col">
           <div class="card shadow-sm">
             <img src="Assets/clon-pinterest.png" alt="" class="bd-placeholder-img card-img-top">
             <div class="card-body">
-              <p class="card-text">Pinterest Clon.</p>
+              <p class="card-text">Project that simulates the Pinterest homepage, using HTML and CSS.</p>
               <div class="d-flex justify-content-between align-items-center">
                 <div class="btn-group">
                   <button type="button" class="btn btn-sm btn-outline-secondary btn-pj"><a target="blank"
@@ -133,11 +176,13 @@
           </div>
         </div>
 
+        <!--To do List-->
         <div class="col">
           <div class="card shadow-sm">
             <img src="Assets/to-do-list.png" alt="" class="bd-placeholder-img card-img-top">
             <div class="card-body">
-              <p class="card-text">To-do list web app.</p>
+              <p class="card-text">To-do list web app that allows you to add tasks, mark them as complete, and remove
+                them.</p>
               <div class="d-flex justify-content-between align-items-center">
                 <div class="btn-group">
                   <button type="button" class="btn btn-sm btn-outline-secondary btn-pj"><a target="blank"
@@ -152,69 +197,54 @@
       </div>
     </div>
 
-    <!--Collabs-->
-    <div class="collabs container mt-5" id="collabs">
-      <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
-        <h2 class="pb-2 border-bottom" id="collabs-title">Collabs</h2>
-        <div class="carousel-inner">
-          <!--Item-->
-          <div class="carousel-item active">
-            <div class="d-flex justify-content-center">
-              <!--Card-->
-              <div class="card" style="width: 18rem;">
-                <img src="Assets/mirai_logo.png" class="card-img-top" alt="...">
-                <div class="card-body">
-                  <h5 class="card-title text-center">Mirai Innovation Research Institute</h5>
-                  <h6 id="position" class="card-subtitle text-center mb-1">Research Internship</h6>
-                  <p class="card-text text-center">During the “EmFuTech 2024” program I developed an innovative and
-                    adaptable therapy for gradual exposure treatment for phobias, integrating augmented reality with a
-                    real-time biofeedback algorithm. The system, developed in Python, leverages AI to monitor the
-                    patient's fear and stress reactions to a visual stimulus and intelligently adjust the interactive
-                    environment to optimize the treatment.</p>
-                </div>
-              </div>
-              <!--Card End-->
-            </div>
+    <!--Research & Collabs-->
+    <div class="container mt-5" id="collabs">
+      <h2 class="pb-2 border-bottom" id="section-title">Research & Collaborations</h2>
+      <div class="row g-4 py-5 row-cols-1 row-cols-lg-3">
+        <div class="col d-flex align-items-start">
+          <img src="Assets/mirai_logo.png" alt="Mirai logo" class="collab-logo me-3">
+          <div>
+            <h5 class="fs-4">Mirai Innovation Research Institute</h5>
+            <p>Developed a therapy for phobia treatment using AR and biofeedback during the EmFuTech 2024 program.</p>
           </div>
-          <!--Item-->
-          <div class="carousel-item">
-            <div class="d-flex justify-content-center">
-              <!--Card-->
-              <div class="card" style="width: 18rem;">
-                <img src="Assets/paho-logo-blue.png" class="card-img-top" alt="...">
-                <div class="card-body">
-                  <h5 class="card-title text-center">Pan American Health Organization</h5>
-                  <h6 class="card-subtitle text-center mb-1">Research Assistant</h6>
-                  <p class="card-text text-center"> Collaboration on a statistical research project analyzing the import
-                    and export of medical devices and health supplies in Mexico before, during, and after the COVID-19
-                    pandemic. I applied data analysis skills to manage and interpret large datasets, enhancing the
-                    accuracy and insights of the research findings.</p>
-                </div>
-              </div>
-              <!--Card End-->
-            </div>
+        </div>
+        <div class="col d-flex align-items-start">
+          <img src="Assets/paho-logo-blue.png" alt="PAHO logo" class="collab-logo me-3">
+          <div>
+            <h5 class="fs-4">Pan American Health Organization</h5>
+            <p>Contributed to a research project on the import/export of medical devices in Mexico during COVID-19.</p>
           </div>
-          <!--Item-->
-          <div class="carousel-item">
-            <div class="d-flex justify-content-center">
-              <!--Card-->
-              <div class="card" style="width: 18rem;">
-                <img src="Assets/somib.png" class="card-img-top" alt="...">
-                <div class="card-body">
-                  <h5 class="card-title text-center">SOMIB</h5>
-                  <h5 class="card-title text-center">Sociedad Mexicana de Ingeniería Biomédica</h5>
-                  <h6 class="card-subtitle text-center mb-1">Innovation Committee</h6>
-                  <p class="card-text text-center">I guided the development of innovative prototypes during the
-                    InnovaHealth Challenge 2023, a national competition to solve key health sector challenges in Mexico.
-                    In this role, I supported participants in their prototype development by adhering to regulatory
-                    standards to ensure quality and compliance to achieve the project proof of concept, reinforcing my
-                    experience in regulatory compliance, project management, and healthcare innovation.</p>
-                </div>
-              </div>
-              <!--Card End-->
-            </div>
+        </div>
+        <div class="col d-flex align-items-start">
+          <img src="Assets/somib.png" alt="SOMIB logo" class="collab-logo me-3">
+          <div>
+            <h5 class="fs-4">SOMIB – Sociedad Mexicana de Ingeniería Biomédica</h5>
+            <p>Mentored healthcare prototypes for InnovaHealth Challenge 2023, ensuring regulatory compliance.</p>
           </div>
+        </div>
+      </div>
+    </div>
 
+    <!--Courses & Certifications-->
+    <div class="container my-5" id="courses">
+      <h2 class="pb-2 border-bottom" id="section-title">Courses & Certifications</h2>
+      <div class="row row-cols-1 row-cols-md-2 g-4">
+        <div class="col">
+          <div class="certification-card">
+            <h5>Deep Learning Specialization – DeepLearning.AI</h5>
+            <p>In progress (2 of 5 courses). Covers neural networks, CNNs, sequence models and more.</p>
+            <button type="button" class="btn btn-sm btn-outline-secondary btn-pj"><a target="blank"
+                href="https://coursera.org/share/f64b0dfe5695c816a724ebc41fd4a4fd">View certificate</a></button>
+          </div>
+        </div>
+        <div class="col">
+          <div class="certification-card">
+            <h5>Data Science Professional Certification – IBM</h5>
+            <p>In progress. Exploring data science fundamentals, Python, data manipulation, visualization, machine
+              learning, and SQL.</p>
+            <button type="button" class="btn btn-sm btn-outline-secondary btn-pj"><a target="blank" href="">View
+                certificate</a></button>
+          </div>
         </div>
       </div>
     </div>
@@ -227,8 +257,7 @@
         <p class="lead mb-4">Let's get in touch if you want to do a new project with me!</p>
         <div class="d-grid gap-2 d-sm-flex justify-content-sm-center">
           <a href="mailto:daryanauribe25@gmail.com">
-            <button id="btn-contact" type="button" class="btn btn-lg px-4" fdprocessedid="t7rm18">Mail
-              to</button>
+            <button id="btn-contact" type="button" class="btn btn-lg px-4">Mail to</button>
           </a>
         </div>
       </div>
@@ -246,8 +275,7 @@
           class="nav-link px-2 text-body-secondary"><i class="bi bi-instagram fs-3 icon"></i></a></li>
     </ul>
     <div class="end-container">
-      <p class="text-center end-text">Created by Daryana Martínez-Uribe at <a target="_blank"
-          href="https://tecnolochicas.mx/">Tecnolochicas Pro</a> BootCamp</p>
+      <p class="text-center end-text">Created by Daryana Martínez-Uribe</p>
     </div>
   </footer>
 

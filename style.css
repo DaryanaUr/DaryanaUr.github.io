@@ -32,7 +32,7 @@ body{
     color: #B5838D;
 }
 
-#hanging-icons{
+#section-title{
     color: #B5838D;
 }
 .skill-title{
@@ -43,13 +43,40 @@ body{
     color: #E5989B;
 }
 
-#projects-title{
-    color: #B5838D;
-}
 .card-body{
     background-color: #B5838D;
     color: whitesmoke;
 }
+
+.card-img-top {
+    object-fit: cover;
+    height: 200px;
+    width: 100%;
+  }
+
+.certification-card {
+    border: 1px solid #ddd;
+    padding: 1rem;
+    border-radius: 8px;
+    margin-bottom: 1rem;
+    background-color: #f9f9f9;
+}
+
+.certification-card h5 {
+    margin-top: 0.5rem;
+}
+
+.certification-card a {
+    font-size: 0.95rem;
+}
+
+.collab-logo {
+    height: 50px;
+    object-fit: contain;
+    margin-bottom: 10px;
+    
+}
+
 .btn-pj{
     background-color: #6D6875;
     
@@ -64,9 +91,6 @@ body{
     color:#E5989B;
 }
 
-#collabs-title{
-    color: #B5838D;
-}
 .card-subtitle{
     color: #FFCDB2;
 }
