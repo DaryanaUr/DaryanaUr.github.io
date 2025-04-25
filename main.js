@@ -4,7 +4,7 @@ var typewriter = new Typewriter(app, {
     loop: true
 });
 
-typewriter.typeString('Software Developer')
+typewriter.typeString('AI  Developer')
     .pauseFor(2500)
     .deleteAll()
     .typeString('Coding turns imagination into innovation')
